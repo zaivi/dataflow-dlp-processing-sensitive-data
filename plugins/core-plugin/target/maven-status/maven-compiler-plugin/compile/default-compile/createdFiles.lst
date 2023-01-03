@@ -1,0 +1,9 @@
+com/google/cloud/teleport/plugin/model/TemplateDefinitions.class
+com/google/cloud/teleport/plugin/model/SdkInfo.class
+com/google/cloud/teleport/plugin/model/ImageSpecMetadata.class
+com/google/cloud/teleport/plugin/model/ImageSpecParameterType.class
+com/google/cloud/teleport/plugin/TemplateSpecsGenerator.class
+com/google/cloud/teleport/plugin/TemplateDefinitionsParser.class
+com/google/cloud/teleport/plugin/model/MethodDefinitions.class
+com/google/cloud/teleport/plugin/model/ImageSpec.class
+com/google/cloud/teleport/plugin/model/ImageSpecParameter.class

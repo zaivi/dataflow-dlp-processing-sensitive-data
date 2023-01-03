@@ -1,0 +1,740 @@
+-------------------------------------------------------------------------------
+Test set: com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 0, Errors: 23, Skipped: 0, Time elapsed: 0.396 s <<< FAILURE! - in com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest
+testCreateDatasetShouldThrowErrorWhenDatasetCreateFails(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.033 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldThrowErrorWhenDatasetDoesNotExist(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.019 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldCreateDatasetWhenDatasetDoesNotExist(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.017 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateDatasetShouldNotCreateDatasetWhenDatasetAlreadyExists(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.013 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldThrowErrorWhenBigQueryFailsToReadRows(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.014 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldThrowErrorWhenCreateFails(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.014 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateDatasetShouldWorkWhenBigQueryDoesNotThrowAnyError(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.02 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldThrowErrorWhenTableExists(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.032 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupShouldWorkWhenBigQueryDoesNotThrowAnyError(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.013 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteShouldWorkWhenBigQueryDoesNotThrowAnyError(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.017 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testGetDatasetIdReturnsCorrectValue(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.018 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteErrorsShouldBeLogged(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.018 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldWorkWhenBigQueryDoesNotThrowAnyError(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.017 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupShouldThrowErrorWhenTableDeleteFails(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.02 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldThrowErrorWhenTableDoesNotExist(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.016 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupShouldThrowErrorWhenDatasetDeleteFails(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.018 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldThrowErrorWhenTableNameIsNotValid(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.018 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testGetProjectIdReturnsCorrectValue(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.012 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteShouldThrowErrorWhenTableDoesNotExist(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.013 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteShouldThrowErrorWhenDatasetDoesNotExist(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.013 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldWorkWhenBigQueryDoesNotThrowAnyError(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.013 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldThrowErrorWhenSchemaIsNull(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.013 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteShouldThrowErrorWhenInsertFails(com.google.cloud.teleport.it.bigquery.DefaultBigQueryResourceManagerTest)  Time elapsed: 0.013 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.bigquery.Dataset.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.cloud.bigquery.Dataset, interface java.io.Serializable, class com.google.cloud.bigquery.DatasetInfo]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+

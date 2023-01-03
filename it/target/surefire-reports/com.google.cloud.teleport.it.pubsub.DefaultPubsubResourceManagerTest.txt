@@ -1,0 +1,324 @@
+-------------------------------------------------------------------------------
+Test set: com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.163 s <<< FAILURE! - in com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest
+testCreateSubscriptionUnmanagedTopicShouldFail(com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest)  Time elapsed: 0.007 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.pubsub.v1.TopicAdminClient.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testBuilderWithInvalidProjectShouldFail(com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest)  Time elapsed: 0.016 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.pubsub.v1.TopicAdminClient.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupTopicsShouldDeleteTopics(com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest)  Time elapsed: 0.014 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.pubsub.v1.TopicAdminClient.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testPublishMessageUnmanagedTopicShouldFail(com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest)  Time elapsed: 0.025 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.pubsub.v1.TopicAdminClient.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTopicShouldCreate(com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest)  Time elapsed: 0.016 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.pubsub.v1.TopicAdminClient.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateSubscriptionShouldCreate(com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest)  Time elapsed: 0.014 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.pubsub.v1.TopicAdminClient.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testPublishMessageShouldPublish(com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest)  Time elapsed: 0.018 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.pubsub.v1.TopicAdminClient.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTopicWithInvalidNameShouldFail(com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest)  Time elapsed: 0.015 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.pubsub.v1.TopicAdminClient.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateSubscriptionWithInvalidNameShouldFail(com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest)  Time elapsed: 0.016 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.pubsub.v1.TopicAdminClient.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupSubscriptionsShouldDeleteResources(com.google.cloud.teleport.it.pubsub.DefaultPubsubResourceManagerTest)  Time elapsed: 0.022 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.cloud.pubsub.v1.TopicAdminClient.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface com.google.api.gax.core.BackgroundResource, interface java.lang.AutoCloseable, class com.google.cloud.pubsub.v1.TopicAdminClient]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+

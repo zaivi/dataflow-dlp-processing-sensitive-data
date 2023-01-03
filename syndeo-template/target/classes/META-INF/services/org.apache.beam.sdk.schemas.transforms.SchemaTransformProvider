@@ -1,0 +1,2 @@
+com.google.cloud.syndeo.transforms.bigquery.BigQueryReadSchemaTransformProvider
+com.google.cloud.syndeo.transforms.bigtable.BigTableWriteSchemaTransformProvider

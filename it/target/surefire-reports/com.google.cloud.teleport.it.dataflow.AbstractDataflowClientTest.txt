@@ -1,0 +1,220 @@
+-------------------------------------------------------------------------------
+Test set: com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.199 s <<< FAILURE! - in com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest
+testGetJobStatus(com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest)  Time elapsed: 0.046 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Get.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Get, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testGetJobStatus(AbstractDataflowClientTest.java:62)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Get, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testGetJobStatus(AbstractDataflowClientTest.java:62)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testGetJobStatus(AbstractDataflowClientTest.java:62)
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testGetJobStatus(AbstractDataflowClientTest.java:62)
+
+testDrainJobThrowsException(com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest)  Time elapsed: 0.037 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testDrainJobThrowsException(AbstractDataflowClientTest.java:134)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testDrainJobThrowsException(AbstractDataflowClientTest.java:134)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testDrainJobThrowsException(AbstractDataflowClientTest.java:134)
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testDrainJobThrowsException(AbstractDataflowClientTest.java:134)
+
+testDrainJob(com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest)  Time elapsed: 0.031 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testDrainJob(AbstractDataflowClientTest.java:114)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testDrainJob(AbstractDataflowClientTest.java:114)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testDrainJob(AbstractDataflowClientTest.java:114)
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testDrainJob(AbstractDataflowClientTest.java:114)
+
+testCancelJobThrowsException(com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest)  Time elapsed: 0.029 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testCancelJobThrowsException(AbstractDataflowClientTest.java:107)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testCancelJobThrowsException(AbstractDataflowClientTest.java:107)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testCancelJobThrowsException(AbstractDataflowClientTest.java:107)
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testCancelJobThrowsException(AbstractDataflowClientTest.java:107)
+
+testCancelJob(com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest)  Time elapsed: 0.025 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testCancelJob(AbstractDataflowClientTest.java:87)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Update, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testCancelJob(AbstractDataflowClientTest.java:87)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testCancelJob(AbstractDataflowClientTest.java:87)
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testCancelJob(AbstractDataflowClientTest.java:87)
+
+testGetJobThrowsException(com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest)  Time elapsed: 0.031 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Get.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Get, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testGetJobThrowsException(AbstractDataflowClientTest.java:79)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.Dataflow$Projects$Locations$Jobs$Get, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testGetJobThrowsException(AbstractDataflowClientTest.java:79)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testGetJobThrowsException(AbstractDataflowClientTest.java:79)
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at com.google.cloud.teleport.it.dataflow.AbstractDataflowClientTest.testGetJobThrowsException(AbstractDataflowClientTest.java:79)
+

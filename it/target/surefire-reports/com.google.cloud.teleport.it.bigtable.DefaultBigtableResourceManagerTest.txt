@@ -1,0 +1,1028 @@
+-------------------------------------------------------------------------------
+Test set: com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 0, Errors: 32, Skipped: 0, Time elapsed: 0.328 s <<< FAILURE! - in com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest
+testCreateInstanceShouldWorkWhenBigtableDoesNotThrowAnyError(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.015 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupAllShouldThrowErrorWhenInstanceAdminClientFailsToClose(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.012 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupAllShouldWorkWhenBigtableDoesNotThrowAnyError(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldThrowErrorWhenInstanceDoesNotExist(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateInstanceShouldThrowExceptionWhenInstanceAlreadyExists(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldThrowErrorWhenDataClientFailsToInstantiate(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldThrowErrorWhenNoColumnFamilyGiven(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldNotCreateTableWhenTableAlreadyExists(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupAllShouldThrowErrorWhenInstanceFailsToDelete(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteShouldThrowErrorWhenInstanceDoesNotExist(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldWorkWhenBigtableDoesNotThrowAnyError(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.014 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldThrowErrorWhenTableAdminClientFailsToClose(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.011 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldNotCreateInstanceWhenInstanceAlreadyExists(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateInstanceShouldThrowExceptionWhenClientFailsToCreateInstance(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldThrowErrorWhenTableAdminClientFailsToCreateTable(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldThrowErrorWhenDataClientFailsToReadRows(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.013 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldThrowErrorWhenTableDoesNotExist(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupAllClosesInstanceAdminClient(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteShouldThrowErrorWhenDataClientFailsToInstantiate(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldThrowErrorWhenReadRowsReturnsNull(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupAllCallsDeleteInstance(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteShouldWorkWhenBigtableDoesNotThrowAnyError(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.018 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testResourceManagerBuilderGeneratesBigtableResourceManagerClientFactory(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteShouldExitEarlyWhenNoRowMutationsGiven(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testReadTableShouldThrowErrorWhenDataClientFailsToClose(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldCreateInstanceWhenInstanceDoesNotExist(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateInstanceShouldThrowErrorWhenInstanceAdminClientFailsToClose(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateResourceManagerCreatesCorrectIdValues(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateTableShouldWorkWhenBigtableDoesNotThrowAnyError(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupAllClosesTableAdminClient(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteShouldThrowErrorWhenDataClientFailsToSendMutations(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testWriteShouldThrowErrorWhenDataClientFailsToClose(com.google.cloud.teleport.it.bigtable.DefaultBigtableResourceManagerTest)  Time elapsed: 0.011 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.gax.rpc.ServerStream.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, class com.google.api.gax.rpc.ServerStream]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+

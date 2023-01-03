@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.668 s <<< FAILURE! - in com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest
+testLaunchNewJobThrowsException(com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest)  Time elapsed: 0.607 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.services.dataflow.Dataflow$Projects$Locations$FlexTemplates$Launch.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, class com.google.api.services.dataflow.Dataflow$Projects$Locations$FlexTemplates$Launch, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testLaunchNewJobThrowsException(FlexTemplateClientTest.java:152)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, class com.google.api.services.dataflow.Dataflow$Projects$Locations$FlexTemplates$Launch, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testLaunchNewJobThrowsException(FlexTemplateClientTest.java:152)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testLaunchNewJobThrowsException(FlexTemplateClientTest.java:152)
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testLaunchNewJobThrowsException(FlexTemplateClientTest.java:152)
+
+testCreateWithCredentials(com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.auth.Credentials.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.auth.Credentials, interface java.io.Serializable]
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testCreateWithCredentials(FlexTemplateClientTest.java:79)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class com.google.auth.Credentials, interface java.io.Serializable]
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testCreateWithCredentials(FlexTemplateClientTest.java:79)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testCreateWithCredentials(FlexTemplateClientTest.java:79)
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testCreateWithCredentials(FlexTemplateClientTest.java:79)
+
+testLaunchNewJob(com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest)  Time elapsed: 0.05 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.google.api.services.dataflow.Dataflow$Projects$Locations$FlexTemplates$Launch.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, class com.google.api.services.dataflow.Dataflow$Projects$Locations$FlexTemplates$Launch, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testLaunchNewJob(FlexTemplateClientTest.java:87)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.util.AbstractMap, class com.google.api.client.util.GenericData, class com.google.api.client.googleapis.services.AbstractGoogleClientRequest, class com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest, class com.google.api.services.dataflow.DataflowRequest, interface java.lang.Cloneable, class com.google.api.services.dataflow.Dataflow$Projects$Locations$FlexTemplates$Launch, interface java.util.Map]
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testLaunchNewJob(FlexTemplateClientTest.java:87)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testLaunchNewJob(FlexTemplateClientTest.java:87)
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at com.google.cloud.teleport.it.dataflow.FlexTemplateClientTest.testLaunchNewJob(FlexTemplateClientTest.java:87)
+

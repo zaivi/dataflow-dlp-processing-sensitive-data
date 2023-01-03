@@ -1,0 +1,1 @@
+gcloud builds submit --tag asia-southeast1-docker.pkg.dev/projects/dataflow-dlp-images/dataflow/batching-beam-dlp:latest .

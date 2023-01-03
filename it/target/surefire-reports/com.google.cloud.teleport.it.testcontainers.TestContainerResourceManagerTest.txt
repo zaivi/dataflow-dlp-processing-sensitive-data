@@ -1,0 +1,420 @@
+-------------------------------------------------------------------------------
+Test set: com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 0.497 s <<< FAILURE! - in com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest
+testCreateResourceManagerShouldStartContainerWhenNotUsingStaticResource(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.045 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testGetHostShouldReturnCorrectHostWhenManuallySet(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.037 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testGetHostShouldReturnCorrectHostWhenHostNotSet(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.036 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testGetPortShouldReturnCorrectPortWhenManuallySet(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.05 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupAllShouldCloseContainerWhenNotUsingStaticResource(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.038 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateResourceManagerShouldThrowErrorWhenUsingStaticResourceWithoutPortSet(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.039 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateResourceManagerSetsCorrectDockerImageName(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.038 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupAllShouldReturnFalseWhenContainerFailsToClose(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.034 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateResourceManagerShouldThrowErrorWhenUsingStaticResourceWithoutHostOrPortSet(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.035 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateResourceManagerShouldNotStartContainerWhenUsingStaticResource(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.039 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCleanupAllShouldNotCloseContainerWhenUsingStaticResource(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.034 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testCreateResourceManagerShouldThrowErrorWhenUsingStaticResourceWithoutHostSet(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.037 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
+testGetPortShouldReturnContainerHostWhenPortNotSet(com.google.cloud.teleport.it.testcontainers.TestContainerResourceManagerTest)  Time elapsed: 0.035 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class org.testcontainers.containers.MongoDBContainer.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 17.0.4.1+1-LTS-2
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 17.0.4.1+1-LTS-2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 13.0.1
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.testcontainers.containers.ContainerState, class org.testcontainers.containers.MongoDBContainer, interface org.testcontainers.containers.traits.LinkableContainer, interface org.testcontainers.containers.wait.strategy.WaitStrategyTarget, interface org.testcontainers.containers.Container, class org.testcontainers.containers.FailureDetectingExternalResource, interface org.junit.rules.TestRule, interface java.lang.AutoCloseable, class org.testcontainers.containers.GenericContainer, interface org.testcontainers.lifecycle.Startable]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
