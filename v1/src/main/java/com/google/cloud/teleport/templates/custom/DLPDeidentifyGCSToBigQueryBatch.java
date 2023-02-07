@@ -102,7 +102,7 @@ import java.util.stream.Collectors;
  *
  * <pre>
  * # Set the pipeline vars
- * export PROJECT_ID="ext-pinetree"
+ * export PROJECT_ID=""
  * export BUCKET_NAME=""
  *
  * PIPELINE_FOLDER=gs://${BUCKET_NAME}/dataflow/pipelines/dlp-text-to-bigquery
@@ -167,20 +167,20 @@ public class DLPDeidentifyGCSToBigQueryBatch {
 		String[] pipelineOptions = {
 				"--experiments=use_runner_v2",
 				"--runner=DataflowRunner",
-				"--project=ext-pinetree",
+				"--project=",
 				"--region=asia-southeast1",
-				"--subnetwork=https://www.googleapis.com/compute/v1/projects/ext-pinetree/regions/asia-southeast1/subnetworks/poc-subnet",
+				"--subnetwork=https://www.googleapis.com/compute/v1/projects//regions/asia-southeast1/subnetworks/poc-subnet",
 
 				"--numWorkers=2",
 				"--maxNumWorkers=10",
 				"--numberOfWorkerHarnessThreads=12",
 				"--workerMachineType=n2-standard-8",
-				"--dlpProjectId=ext-pinetree",
+				"--dlpProjectId=",
 
-				"--deidentifyTemplateName=projects/ext-pinetree/locations/global/deidentifyTemplates/8469641006640120691",
+				"--deidentifyTemplateName=projects//locations/global/deidentifyTemplates/8469641006640120691",
 				"--JSONPath=gs://dlp-dataflow/schema/tab_account.json",
-				"--outputTable=ext-pinetree:input_raw.TAB_ACCOUNT",
-				"--inputFilePattern=gs://ext-pinetree-staging-dlp-data/2022_12_19_093345/tab_account/tab_account-*.csv.gz",
+				"--outputTable=:input_raw.TAB_ACCOUNT",
+				"--inputFilePattern=gs://-staging-dlp-data/2022_12_19_093345/tab_account/tab_account-*.csv.gz",
 
 				"--bigQueryLoadingTemporaryDirectory=gs://dlp-dataflow/bigquery/temp_dir"
 		};

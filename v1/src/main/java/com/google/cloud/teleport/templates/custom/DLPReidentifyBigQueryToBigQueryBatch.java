@@ -68,28 +68,28 @@ public class DLPReidentifyBigQueryToBigQueryBatch {
 		String[] pipelineOptions = {
 				"--experiments=use_runner_v2",
 				 "--runner=DataflowRunner",
-				"--project=ext-pinetree",
+				"--project=",
 				"--region=asia-southeast1",
 				// "--datasetName=test_giai",
-				"--subnetwork=https://www.googleapis.com/compute/v1/projects/ext-pinetree/regions/asia-southeast1/subnetworks/poc-subnet",
+				"--subnetwork=https://www.googleapis.com/compute/v1/projects//regions/asia-southeast1/subnetworks/poc-subnet",
 
 				"--numWorkers=1",
 				"--maxNumWorkers=2",
 				"--numberOfWorkerHarnessThreads=12",
 				"--workerMachineType=n2-standard-8",
-				// "--dlpProjectId=ext-pinetree",
+				// "--dlpProjectId=",
 
 				"--batchSize=500",
-				"--deidentifyTemplateName=projects/ext-pinetree/locations/global/deidentifyTemplates/2073298865825635522",
+				"--deidentifyTemplateName=projects//locations/global/deidentifyTemplates/2073298865825635522",
 				"--keyRange=1024",
-				"--readQuery=SELECT * FROM `ext-pinetree.test_giai.TCA_HOLIDAY`",
-				"--tableRef=ext-pinetree:test_giai.TCA_HOLIDAY",
+				"--readQuery=SELECT * FROM `.test_giai.TCA_HOLIDAY`",
+				"--tableRef=:test_giai.TCA_HOLIDAY",
 				"--tempLocation=gs://dataflow-staging-asia-southeast1-326091207235/tmp",
 
-				"--JSONPath=gs://ext-pinetree-re-identify-test/bigquery/schemas/TCA_HOLIDAY.json",
-				"--outputTable=ext-pinetree:test_giai.TCA_HOLIDAY_re_identify",
+				"--JSONPath=gs://-re-identify-test/bigquery/schemas/TCA_HOLIDAY.json",
+				"--outputTable=",
 
-				"--bigQueryLoadingTemporaryDirectory=gs://ext-pinetree-re-identify-test/bigquery/temp_dir"
+				"--bigQueryLoadingTemporaryDirectory=gs://-re-identify-test/bigquery/temp_dir"
 		};
 
 		TokenizePipelineOptions options = PipelineOptionsFactory.fromArgs(args)
