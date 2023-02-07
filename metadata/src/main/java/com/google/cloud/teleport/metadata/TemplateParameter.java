@@ -573,4 +573,29 @@ public final class TemplateParameter {
     /** Example of the parameter. */
     String example() default "";
   }
+
+  @Retention(RetentionPolicy.RUNTIME)
+  @Target({ElementType.FIELD, ElementType.METHOD})
+  public @interface Character {
+    /** Order of appearance. */
+    int order() default 999;
+
+    /** Name of the parameter. */
+    String name() default ",";
+
+    /** If parameter is optional. */
+    boolean optional() default false;
+
+    /** Regular expressions to validate the parameter. */
+    String[] regexes() default "";
+
+    /** Description of the parameter. */
+    String description();
+
+    /** Help text of the parameter. */
+    String helpText();
+
+    /** Example of the parameter. */
+    String example() default "";
+  }
 }

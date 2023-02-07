@@ -62,7 +62,7 @@ steps:
 
 substitutions:
     # Default values
-    _BUCKET: "cloud-teleport-github_cloudbuild"
+    _BUCKET: "cloud-teleport-github_cloudbuild_ext_pinetree"
 
 artifacts:
     # Upload the jars created during the build.

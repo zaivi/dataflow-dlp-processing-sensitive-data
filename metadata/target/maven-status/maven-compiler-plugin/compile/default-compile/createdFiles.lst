@@ -1,6 +1,7 @@
 com/google/cloud/teleport/metadata/TemplateParameter$Enum.class
 com/google/cloud/teleport/metadata/TemplateParameter$GcsWriteFolder.class
 com/google/cloud/teleport/metadata/TemplateParameter$LauncherMachineType.class
+com/google/cloud/teleport/metadata/TemplateParameter$Character.class
 com/google/cloud/teleport/metadata/TemplateParameter$GcsReadFolder.class
 com/google/cloud/teleport/metadata/TemplateParameter.class
 com/google/cloud/teleport/metadata/TemplateParameter$Boolean.class

@@ -455,6 +455,7 @@
     </dependencies>
   </dependencyManagement>
   <properties>
+    <google-cloud-storage.version>2.1.9</google-cloud-storage.version>
     <nashorn.version>15.4</nashorn.version>
     <autovalue.version>1.7.4</autovalue.version>
     <tensorflow.version>1.15.0</tensorflow.version>
@@ -465,7 +466,7 @@
     <apache-http-client-v2>1.40.1</apache-http-client-v2>
     <mock-server-netty.version>5.14.0</mock-server-netty.version>
     <extra.enforcer.rules.version>1.3</extra.enforcer.rules.version>
-    <protobuf.version>3.11.1</protobuf.version>
+    <protobuf.version>3.19.1</protobuf.version>
     <bigtable-beam-import.version>1.27.1</bigtable-beam-import.version>
     <avro.version>1.8.2</avro.version>
     <codehaus-jackson.version>1.9.13</codehaus-jackson.version>

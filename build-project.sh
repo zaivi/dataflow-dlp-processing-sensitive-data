@@ -1,2 +1,2 @@
-# Use java sdk 11, maven 3.x.x
+# Use java 11, maven 3.x.x
 mvn clean package
