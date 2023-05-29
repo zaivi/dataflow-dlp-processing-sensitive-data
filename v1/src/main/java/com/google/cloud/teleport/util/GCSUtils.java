@@ -23,18 +23,26 @@ import java.io.InputStream;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.util.List;
+import java.util.regex.*;
 import org.apache.beam.sdk.io.FileSystems;
 import org.apache.beam.sdk.io.fs.MatchResult;
 import org.apache.beam.sdk.io.fs.ResourceId;
 import org.apache.commons.io.IOUtils;
 
+import com.google.api.gax.paging.Page;
+import com.google.cloud.storage.Blob;
+import com.google.cloud.storage.Storage;
+import com.google.cloud.storage.StorageOptions;
+
 /**
- * The {@link GCSUtils} class provides common utilities for reading files from Google Cloud Storage.
+ * The {@link GCSUtils} class provides common utilities for reading files from
+ * Google Cloud Storage.
  */
 public class GCSUtils {
 
   /**
-   * The {@link GCSUtils#getGcsFileAsBytes(String)} reads a file from GCS and returns it as raw
+   * The {@link GCSUtils#getGcsFileAsBytes(String)} reads a file from GCS and
+   * returns it as raw
    * bytes.
    *
    * @param filePath path to file in GCS
@@ -58,14 +66,33 @@ public class GCSUtils {
           result.status() == MatchResult.Status.OK && !result.metadata().isEmpty(),
           "Failed to match any files with the pattern: " + filePath);
 
-      List<ResourceId> rId =
-          result.metadata().stream().map(MatchResult.Metadata::resourceId).collect(toList());
+      List<ResourceId> rId = result.metadata().stream().map(MatchResult.Metadata::resourceId).collect(toList());
 
       checkArgument(rId.size() == 1, "Expected exactly 1 file, but got " + rId.size() + " files.");
 
       return FileSystems.open(rId.get(0));
     } catch (IOException e) {
       throw new RuntimeException("Error when finding: " + filePath, e);
+    }
+  }
+
+  /** Handles delete object in GCS before migration for {@code filePath}. */
+  public static void DeleteObjectsBeforeDLP(String projectId, String bucketName, String dlpFolder) {
+    // The ID of your GCP project
+    // String projectId = "your-project-id";
+
+    // The ID of your GCS bucket
+    // String bucketName = "your-unique-bucket-name";
+
+    Storage storage = StorageOptions.newBuilder().setProjectId(projectId).build().getService();
+    Page<Blob> blobs = storage.list(bucketName);
+
+    String ObjectPattern = String.format("%s/[a-zA-Z0-9_-]+\\.csv.gz", dlpFolder);
+
+    for (Blob blob : blobs.iterateAll()) {
+      if (Pattern.matches(ObjectPattern, blob.getName())) {
+        blob.delete();
+      }
     }
   }
 }
